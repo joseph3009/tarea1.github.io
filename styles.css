@@ -1,0 +1,438 @@
+/*Correspondiente a todos los hr*/
+header hr{
+    border-color: #5b97c9; 
+    border-width: 1px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*Correspondiente a todos los h2*/
+h2{
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    color: #FFDD00;
+    text-transform: uppercase;  
+}
+
+/*Correspondiente a todos los p*/
+p{
+    color: rgb(31, 24, 24);
+}
+
+/*Correspondiente al header*/
+header{
+    text-align: center;
+    padding: 0;
+    background-color: #98cef0;
+    border: 2px solid #5b97c9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*Correspondiente al h1*/
+h1{
+    font-size: 40px;
+    color: #f5f5fa;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    margin: 0; 
+}
+
+/*Correspondiente al nav*/
+nav{
+    justify-content: space-between; 
+    text-align: left;
+}
+
+/*Correspondiente a los ul*/
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+/*Correspondiente a los li*/
+li{
+    margin: 5px 0; 
+}
+
+a {
+    text-decoration: none; 
+    color: #800080; 
+    padding: 1px;
+    border-radius: 2px; 
+
+    /*Genera una transición en el fondo del texto*/
+    transition: background-color 0.5s; 
+}
+
+/*Se utiliza para aplicar estilos a los enlaces cuando el cursor pasa sobre ellos*/
+a:hover {
+    text-shadow: 2px 2px 4px #e90cde;
+}
+
+/*Correspondiente al body*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Correspondiente al apartado de moneda*/
+#moneda .tarjeta {
+    max-width: 65vw;
+    margin: 48px auto;
+    border-radius: 10px;
+    border: 1px solid #5b97c9;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#moneda .contenido {
+    display: flex;
+}
+
+@media (max-width: 728px) {
+    #moneda .contenido {
+        flex-direction: column;
+    }
+    #moneda .tarjeta {
+        max-width: 95vw; 
+    }
+}
+
+#moneda .ladoIzq, #moneda .ladoDer {
+    width: 100%;
+}
+
+#moneda .ladoDer img {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}
+
+#moneda .ladoIzq {
+    background: #98cef0;
+    color: white;
+    padding: 48px;
+}
+
+/*Correspondiente al apartado de símbolo*/
+#símbolo .tarjeta {
+    max-width: 65vw;
+    margin: 48px auto;
+    border-radius: 10px;
+    border: 1px solid #5b97c9;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#símbolo .contenido {
+    display: flex;
+}
+
+@media (max-width: 728px) {
+    #símbolo .contenido {
+        flex-direction: column;
+    }
+    #símbolo .tarjeta {
+        max-width: 95vw; 
+    }
+}
+
+#símbolo .ladoIzq, #símbolo .ladoDer {
+    width: 100%;
+}
+
+#símbolo .ladoDer  {
+    background: #98cef0;
+    color: white;
+    padding: 48px;
+}
+
+#símbolo .ladoIzq img{
+    
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}
+
+/*Correspondiente al apartado de capital*/
+#capital .tarjeta {
+    max-width: 65vw;
+    margin: 48px auto;
+    border-radius: 10px;
+    border: 1px solid #5b97c9;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#capital .contenido {
+    display: flex;
+}
+
+@media (max-width: 728px) {
+    #capital .contenido {
+        flex-direction: column;
+    }
+    #capital .tarjeta {
+        max-width: 95vw; 
+    }
+}
+
+#capital .ladoIzq, #capital .ladoDer {
+    width: 100%;
+}
+
+#capital .ladoDer img {
+    width: 100%;
+    height: 100%; 
+    border-style: none;
+}
+
+#capital .ladoIzq {
+    background: #98cef0;
+    color: white;
+    padding: 48px;
+}
+
+/*Correspondiente al apartado de región*/
+#region .tarjeta {
+    max-width: 65vw;
+    margin: 48px auto;
+    border-radius: 10px;
+    border: 1px solid #5b97c9;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#region .contenido {
+    display: flex;
+}
+
+@media (max-width: 728px) {
+    #region .contenido {
+        flex-direction: column;
+    }
+    #region .tarjeta {
+        max-width: 95vw; 
+    }
+}
+
+#region .ladoIzq, #region .ladoDer {
+    width: 100%;
+}
+
+#region .ladoDer  {
+    background: #98cef0;
+    color: white;
+    padding: 48px;
+}
+
+#region .ladoIzq img{
+    
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}
+
+/*Correspondiente a la infografía*/
+.infografia {
+    border: 2px solid #5b97c9; 
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #98cef0; 
+    width: 300px; 
+    margin: auto; 
+}
+
+.infografia h2 {
+    text-align: center;
+    color: #f5f5fa; 
+}
+
+.seccion-info {
+    margin: 15px 0; 
+    border-bottom: 1px dashed #5b97c9; 
+    padding-bottom: 10px;
+}
+
+.seccion-info h3 {
+    color: #c4a703;
+    /*Este código permite que las letras blancas tengan borde negro*/ 
+    text-shadow: 
+        -1px -1px 0 #2b2929,  
+        1px -1px 0 #2b2929,
+        -1px  1px 0 #2b2929,
+        1px  1px 0 #2b2929; 
+}
+
+.seccion-info p{
+    color: #0a0a0a;
+    text-shadow: none
+}
+
+/*Correspondiente al apartado de bandera*/
+#bandera .tarjeta {
+    max-width: 65vw;
+    margin: 48px auto;
+    border-radius: 10px;
+    border: 1px solid #5b97c9;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#bandera .contenido {
+    display: flex;
+}
+
+@media (max-width: 728px) {
+    #bandera .contenido {
+        flex-direction: column;
+    }
+    #bandera .tarjeta {
+        max-width: 95vw; 
+    }
+}
+
+#bandera .ladoIzq, #bandera .ladoDer {
+    width: 100%;
+}
+
+#bandera .ladoDer img {
+    width: 100%;
+    height: 100%; 
+    border-style: none;
+}
+
+#bandera .ladoIzq {
+    background: #98cef0;
+    color: white;
+    padding: 48px;
+}
+
+/*Correspondiente a Buenos Aires*/
+#BuenosAires.tarjeta {
+    max-width: 65vw;
+    margin: 48px auto;
+    border-radius: 10px;
+    border: 1px solid #5b97c9;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#BuenosAires .contenido {
+    display: flex;
+}
+
+@media (max-width: 728px) {
+    #BuenosAires .contenido {
+        flex-direction: column;
+    }
+    #BuenosAires .tarjeta {
+        max-width: 95vw; 
+    }
+}
+
+#BuenosAires .ladoIzq, #BuenosAires .ladoDer {
+    width: 100%;
+}
+
+#BuenosAires .ladoIzq img {
+    width: 85%;
+    height: 95%; 
+    border-style: none;
+}
+
+#BuenosAires .ladoDer {
+    background: #98cef0;
+    color: black;
+    padding: 48px;
+}
+
+/*Correspondiente a Córdoba*/
+#Córdoba.tarjeta {
+    max-width: 65vw;
+    margin: 48px auto;
+    border-radius: 10px;
+    border: 1px solid #5b97c9;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#Córdoba .contenido {
+    display: flex;
+}
+
+@media (max-width: 728px) {
+    #Córdoba .contenido {
+        flex-direction: column;
+    }
+    #Córdoba .tarjeta {
+        max-width: 95vw; 
+    }
+}
+
+#Córdoba .ladoIzq, #Córdoba .ladoDer {
+    width: 100%;
+}
+
+#Córdoba .ladoDer img {
+    width: 85%;
+    height: 95%; 
+    border-style: none;
+}
+
+#Córdoba .ladoIzq {
+    background: #98cef0;
+    color: black;
+    padding: 48px;
+}
+
+/*Correspondiente a Santa Fé*/
+#SantaFé.tarjeta {
+    max-width: 65vw;
+    margin: 48px auto;
+    border-radius: 10px;
+    border: 1px solid #5b97c9;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#SantaFé .contenido {
+    display: flex;
+}
+
+@media (max-width: 728px) {
+    #SantaFé .contenido {
+        flex-direction: column;
+    }
+    #SantaFé .tarjeta {
+        max-width: 95vw; 
+    }
+}
+
+#SantaFé .ladoIzq, #SantaFé .ladoDer {
+    width: 100%;
+}
+
+#SantaFé .ladoIzq img {
+    width: 85%;
+    height: 95%; 
+    border-style: none;
+}
+
+#SantaFé .ladoDer {
+    background: #98cef0;
+    color: black;
+    padding: 48px;
+}
+
+
+
